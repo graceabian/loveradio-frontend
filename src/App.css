@@ -36,8 +36,4 @@
       transform: rotate(360deg);
     }
   }
-  .cardHighlight {
-    min-height: 100%;
-    background-color: lightblue; 
-  }
   

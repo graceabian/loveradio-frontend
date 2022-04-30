@@ -4,6 +4,7 @@ import "./App.css";
 import AppNavBar from "./components/AppNavBar";
 import Banner from "./components/Banner";
 import Highlights from "./components/Highlights";
+import Content from "./components/Content";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <AppNavBar />
         <Banner />
         <Highlights />
-        <h1>Hello Love Radio Manila</h1>
+        <Content />
       </div>
     </div>
   );
