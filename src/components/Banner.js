@@ -1,15 +1,17 @@
-import { Form } from "react-bootstrap";
+import { Form, Container } from "react-bootstrap";
 
 export default function Banner() {
   return (
-    <>
-      <Form.Check type="radio" aria-label="radio 1">
-        WATCH
-      </Form.Check>
+    <Container claasName="Banner">
+      <div>
+        <Form.Check type="radio" aria-label="radio 1">
+          WATCH
+        </Form.Check>
 
-      <Form.Check type="radio" aria-label="radio 1">
-        LISTEN
-      </Form.Check>
-    </>
+        <Form.Check type="radio" aria-label="radio 1">
+          LISTEN
+        </Form.Check>
+      </div>
+    </Container>
   );
 }

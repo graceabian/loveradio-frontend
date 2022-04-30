@@ -5,6 +5,7 @@ import AppNavBar from "./components/AppNavBar";
 import Banner from "./components/Banner";
 import Highlights from "./components/Highlights";
 import Content from "./components/Content";
+import Kabisyo from "./pages/Kabisyo";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Banner />
         <Highlights />
         <Content />
+        <Kabisyo />
       </div>
     </div>
   );
