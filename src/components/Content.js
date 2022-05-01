@@ -1,9 +1,9 @@
 //identify needed components
-import { Card, Row, Col } from "react-bootstrap";
+import { Card, Row, Col, Container } from "react-bootstrap";
 
 export default function Content() {
   return (
-    <>
+    <Container>
       <Row className="my-3">
         <Col xs={12} md={4}>
           <Card>
@@ -42,6 +42,6 @@ export default function Content() {
           </Card>
         </Col>
       </Row>
-    </>
+    </Container>
   );
 }

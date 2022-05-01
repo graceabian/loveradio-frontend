@@ -7,7 +7,7 @@ export default function Dj() {
         <h2 className="kabisyo"> Kabisyo DJs</h2>
       </>
 
-      <Row xs={12} md={8}>
+      <Row>
         <Col xs={{ order: 12 }}>
           <a href="https://www.loveradio.com.ph/tambalan/nicole-hyala/">
             <img

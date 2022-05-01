@@ -5,9 +5,9 @@ import { Row, Col } from "react-bootstrap";
 
 export default function Highlights() {
   return (
-    <Row className="my-3">
+    <Row>
       {/*1st Hightlight*/}
-      <Col xs={12} md={4}>
+      <Col xs={{ order: 12 }}>
         <div>
           <a href="https://www.loveradio.com.ph/whats-new/raqi-terra-kapag-nagmamadali-huwag-maghabol-dapat-gumapang/">
             <img
@@ -25,9 +25,8 @@ export default function Highlights() {
           </p>
         </div>
       </Col>
-
       {/*2nd Hightlight*/}
-      <Col xs={12} md={4}>
+      <Col xs={{ order: 12 }}>
         <div>
           <a href="https://www.loveradio.com.ph/whats-new/tatlong-psychological-tips-para-mabasa-ang-isang-tao-dj-robin-sienna/">
             <img
@@ -48,7 +47,7 @@ export default function Highlights() {
       </Col>
 
       {/*3rd Hightlight*/}
-      <Col xs={12} md={4}>
+      <Col xs={{ order: 12 }}>
         <div>
           <a href="https://www.loveradio.com.ph/whats-new/ang-ootd-ni-nicole-hyala-sa-kanyang-mahiwagang-hallway/">
             <img
