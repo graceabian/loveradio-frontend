@@ -12,12 +12,28 @@ code {
     monospace;
 }
 
-.cardHighlight {
-  min-height: 100%;
-  background-color: red !important; 
-}
-
 .navbar {
   background-color: lightgray !important;
 }
 
+.dj {
+  width: 80%;
+  margin: 0% 15%;
+  padding: 0 0 50px;
+  float: left;
+  background: #D0D3D4  ;
+  color: white;
+}
+
+.kabisyo {
+  font-weight: 600;
+  padding: 10px 5px 5px 10px;
+  color: #fff;
+  background: #969696;
+}
+
+.raqitext {
+  font-weight:500;
+  font-style: normal;
+  font-size: small;
+}
