@@ -1,19 +1,31 @@
-import { Navbar, Nav, Container } from "react-bootstrap";
+import { Nav, Navbar, Container } from "react-bootstrap";
 
 //we will now describe how we want our Navbar to look.
 function AppNavBar() {
   return (
-    <Navbar className="navbar navbar-default nav-burger padding: 5px 0px; margin:none">
-      <Container>
-        <Navbar.Brand> Love Radio </Navbar.Brand>
-        <Navbar.Brand> Raqi Terra </Navbar.Brand>
-        <Navbar.Brand> Provincial Station </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse>
-          <Nav></Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <>
+      <Navbar className="navbar padding: 5px 10px; margin:none">
+        <Container>
+          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+
+      <Navbar bg="white" variant="white">
+        <Container>
+          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+    </>
   );
 }
 

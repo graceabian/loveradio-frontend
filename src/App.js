@@ -1,6 +1,7 @@
 import "./App.css";
 
 //import the navbar
+import AppNav from "./components/AppNav";
 import AppNavBar from "./components/AppNavBar";
 import Banner from "./components/Banner";
 import Highlights from "./components/Highlights";
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <div>
+        {/* <AppNav /> */}
         <AppNavBar />
         <Banner />
         <Highlights />
